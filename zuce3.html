@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link  type="text/css"  rel="stylesheet"  href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.8.1.js"></script><!--下拉-->
+<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script><!--下拉-->
+<script type="text/javascript"><!--下拉-->
+$(function () {
+	$(".cou").selectbox();
+});
+</script>
+<!-- TemplateEndEditable -->
+</head>
+<body style="background: url(images/zcbj.png) no-repeat center top;">
+ <div class="tabbox">
+   <div class="head">
+	 <div class="fan">
+       <a href="index.html">返回首页</a>
+	</div>
+  </div>
+ 
+  <div class="zuce3">
+	<div class="box_zc" style="padding-top:60px;">
+	      <div class="tiao" style="padding-left:45px;"><img src="images/03.png" ></div>
+		  <div class="tiao">
+			  <ul>
+				  <li>创建账户</li>
+				  <li>填写基础信息</li>
+				  <li>填写用户信息</li>
+				  <li><a>注册成功</a></li>
+              </ul>
+		  </div>
+	</div> <div class="clear"></div>
+	<div class="biaoti">
+	    <img src="images/xie.png" >
+		<a>请填写企业信息</a>
+	</div>
+	<div class="box_zc">
+	     <dl>
+	         <dt><a>*</a>管理员姓名</dt>
+	         <dd>
+	         <input class="input_zc" type="text" placeholder="请输入管理员姓名" onclick="this.placeholder='';this.style.color='#000000'"/>
+	         </dd>
+	     </dl>        
+	 </div>
+	 <div class="box_zc">
+	      <dl>
+	          <dt><a>*</a>管理员手机号码</dt>
+	          <dd>
+	          13309803006
+	          </dd>
+	      </dl>        
+	 </div> 
+    <div class="box_zc">
+	       <dl>
+	           <dt><a>*</a>登录密码</dt>
+	           <dd>
+	           <input class="input_zc" type="text" placeholder="请输入登录密码" onclick="this.placeholder='';this.style.color='#000000'"/>
+	           </dd>
+	       </dl>        
+	   </div>
+	   <div class="box_zc">
+	        <dl>
+	            <dt><a>*</a>确认登录密码</dt>
+	            <dd>
+	            <input class="input_zc" type="text" placeholder="请再次输入登录密码" onclick="this.placeholder='';this.style.color='#000000'"/>
+	            </dd>
+	        </dl>        
+	    </div>
+		
+		<div class="box_zc">
+		     <dl>
+		         <dt><a>*</a>证件号码</dt>
+		         <dd>
+		         <input class="input_zc" type="text" placeholder="110100199012038899" onclick="this.placeholder='';this.style.color='#000000'"/>
+		         </dd>
+		     </dl>        
+		</div>
+		<div class="box_zc">
+		     <dl>
+		         <dt><a>*</a>管理员邮箱</dt>
+		         <dd>
+		         <input class="input_zc" type="text" placeholder="1900800@163.com" onclick="this.placeholder='';this.style.color='#000000'"/>
+		         </dd>
+		     </dl>        
+		</div>
+        <div class="box_zc">
+		      <dl>
+		          <dt><a>*</a>职位</dt>
+		          <dd>
+		          <select class="sbHolder">
+		           <option value="职位1" >职位1</option> 
+		           <option value="职位11" >职位11</option> 
+		           <option value="职位12" >职位12</option>
+		          </select>
+		          </dd>
+		      </dl>        
+		  </div>
+          <div class="biaoti" style="padding:20px 0;">
+		    <img src="images/xie.png" >
+		  	<a>请填写企业信息</a></br>
+			<span>提示：因平台上金单开具、转让、融资等操作为双岗操作，您可在下方添加贵司在平台上的操作人员，方便操作相关业务。</span>
+		  </div>
+		  <div class="add" >
+		    
+		  	<a class="zhankai"><img src="images/add.png">&nbsp;添加</a>
+		  </div><div class="clear"></div>	
+		  <script language=javascript>
+					   $(".zhankai").click(function(){
+						$(".nones").stop().slideToggle();
+					})
+		 </script>
+		 <div class="nones">
+         <div class="box_zc">
+		      <dl>
+		          <dt><a>*</a>操作人员姓名</dt>
+		          <dd>
+		          <select class="sbHolder">
+		           <option value="操作人员已在平台注册" >操作人员已在平台注册</option> 
+		           <option value="我要添加同事为操作员" >我要添加同事为操作员</option> 
+		          </select>
+		          </dd>
+		      </dl>        
+		  </div> 
+         <div class="box_zc">
+		       <dl>
+		           <dt><a>*</a>操作人员手机号</dt>
+		           <dd>
+		           <input class="input_zc" type="text" placeholder="请输入操作人员手机号" onclick="this.placeholder='';this.style.color='#000000'"/>
+		           </dd>
+		       </dl>        
+		   </div>
+		   <div class="box_zc">
+		         <dl>
+		             <dt><a>*</a>证件号码</dt>
+		             <dd>
+		             <input class="input_zc" type="text" placeholder="请输入证件号码" onclick="this.placeholder='';this.style.color='#000000'"/>
+		             </dd>
+		         </dl>        
+		     </div>
+			 <div class="box_zc">
+			       <dl>
+			           <dt><a>*</a>操作人员邮箱</dt>
+			           <dd>
+			           <input class="input_zc" type="text" placeholder="请输入操作人员邮箱" onclick="this.placeholder='';this.style.color='#000000'"/>
+			           </dd>
+			       </dl>        
+			   </div>
+			
+			 <div class="box_zc">
+			      <dl>
+			          <dt>职位</dt>
+			          <dd>
+			          <select class="sbHolder">
+			           <option value="请选择职位类型" >请选择职位类型</option> 
+			           <option value="互联网" >互联网</option> 
+			           <option value="金融" >金融</option>
+			          </select>
+			          </dd>
+			      </dl>        
+			  </div>
+		</div>	
+		  
+		  <div class="box_zc" style="margin-top:30px ;">
+			<input class="up" style="margin-left:160px ;" type="button"  name="上一步" value="上一步"/>
+			<input class="next" style="margin-left: 30px;" type="button" onclick="javascript:location.href='zuce4.html' " name="下一步" value="下一步"/>
+			
+		  </div>
+ </div>
+
+</div>
+</body>
+</html>
